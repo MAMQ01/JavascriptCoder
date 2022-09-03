@@ -1,5 +1,10 @@
 //Aca intento crear el almacenaje de datos y una respuesta en base a lo que se almacena. 
 //En un ejemplo de personas que verifican si aprueban o no y el promedio del curso.
+/* Profe no pude enlazarlos para alamcenar los resultados de la notas y verificar con el nombre si aprobo o no, 
+era lo que queria hacer pero es confuso ahi trate de apoyarme con contenido de 
+internet pero fue mas dificil de lo esperado */
+//la calculadora la puse porque no termine de comprender el desafio y no estaba seguro de si se necesitaba
+
 
 var texto = "";
 
@@ -18,8 +23,8 @@ document.write(texto)
 
 
 var parcial, final, promedio;
-parcial = Number(prompt("parcial"));
-final = Number(prompt("final"));
+parcial = Number(prompt("Introduzca la nota de su Parcial"));
+final = Number(prompt("Introduzca su nota del examen Final"));
 promedio = (parcial + final )/2;
 // total = Number(prompt("total"));
 
